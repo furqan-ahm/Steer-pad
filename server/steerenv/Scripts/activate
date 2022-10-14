@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\Projects\Flutter\steer_pad\server\steerenv"
+VIRTUAL_ENV="D:\Projects\Flutter\steer_pad\server\steerenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
