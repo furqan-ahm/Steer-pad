@@ -47,7 +47,7 @@ async def cancelVibrate():
 @sio.event
 def connect(sid, environ):
     gamepad[sid]=vg.VX360Gamepad()
-    gamepad[sid].register_notification(my_callback)
+    # gamepad[sid].register_notification(my_callback)
 
     print('connect ', sid)
     
@@ -113,8 +113,3 @@ sio.attach(app)
 if __name__=='__main__':
     web.run_app(app)
     
-
-
-
-
-
